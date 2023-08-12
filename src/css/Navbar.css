@@ -1,0 +1,16 @@
+#navbar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  background-color: blueviolet;
+}
+
+.nav-item{
+    margin: 0 2rem;
+    text-decoration: none;
+    text-decoration: none;
+    color: rgb(240, 201, 255);
+    font-size: 1.3rem;
+}

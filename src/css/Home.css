@@ -1,0 +1,17 @@
+.home-container{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.post{
+    background-color: rgb(244, 207, 255);
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+}
+.post-link{
+    text-decoration: none;
+}
+.post-title{
+    color: rgb(102, 11, 188);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}

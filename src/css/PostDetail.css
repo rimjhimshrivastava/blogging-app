@@ -1,0 +1,10 @@
+.post-detail{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding: 2rem;
+    background-color: rgb(244, 207, 255);
+}
+.post-content{
+    margin-top: 1rem;
+}
