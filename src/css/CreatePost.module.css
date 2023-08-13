@@ -1,22 +1,23 @@
-.create-post h2{
+.createPost h2{
     text-align: center;
     color: rgb(89, 0, 152);
 }
-.post-form{
+.postForm{
     display: flex;
     flex-direction: column;
-    margin: 0 20%;
+    margin: 0 10%;
 }
-.label-name{
+.labelName{
     font-size: 1.2rem;
     color: rgb(94, 8, 175);
     margin: 1rem 0 0.3rem;
 }
-.post-form textarea{
+.postForm textarea{
     border: none;
     resize: none;
+    font-size: 1rem;
 }
-.submit-form{
+.submitForm{
     padding: 1rem 2rem;
     width: fit-content;
     margin: 1rem 0;

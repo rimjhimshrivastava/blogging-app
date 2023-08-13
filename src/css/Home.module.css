@@ -1,4 +1,4 @@
-.home-container{
+.homeContainer{
     margin-left: 7rem;
     margin-right: 7rem;
 }
@@ -7,10 +7,10 @@
     margin: 2rem 0;
     padding: 1rem 2rem;
 }
-.post-link{
+.postLink{
     text-decoration: none;
 }
-.post-title{
+.postTitle{
     color: rgb(102, 11, 188);
     margin-bottom: 1rem;
     font-size: 1.2rem;

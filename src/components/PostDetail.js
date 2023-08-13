@@ -1,4 +1,4 @@
-import "../css/PostDetail.css";
+import css from "../css/PostDetail.module.css";
 import { useEffect, useState } from "react";
 import db from "../firebase";
 import * as firebase from "firebase/firestore";
@@ -16,10 +16,10 @@ function PostDetail() {
   }, [postId]);
 
   return (
-    <div className="post-detail">
-      <div className="post-title">{post.title}</div>
-      <div className="post-subtitle">{post.subtitle}</div>
-      <div className="post-content">{post.content}</div>
+    <div className={css.postDetail}>
+      <div className={css.postTitle}>{post.title}</div>
+      <div className={css.postAuthor}>Author: {post.author}</div>
+      <div className={css.postContent}>{post.content}</div>
     </div>
   );
 }

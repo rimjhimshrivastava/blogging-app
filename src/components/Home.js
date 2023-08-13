@@ -1,4 +1,4 @@
-import "../css/Home.css";
+import css from "../css/Home.module.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import db from "../firebase";
@@ -18,14 +18,14 @@ function Home() {
   }, []);
 
   return (
-    <div className="home-container">
+    <div className={css.homeContainer}>
       <h2>Blog Page</h2>
       {posts.map((post, index) => (
-        <div className="post" key={`post-${index}`}>
-          <Link className="post-link" to={`/post/${post.id}`}>
-            <div className="post-title">{post.title}</div>
+        <div className={css.post} key={`post-${index}`}>
+          <Link className={css.postLink} to={`/post/${post.id}`}>
+            <div className={css.postTitle}>{post.title}</div>
           </Link>
-          <div className="post-subtitle">{post.subtitle}</div>
+          <div className={css.postAuthor}>Author: {post.author}</div>
         </div>
       ))}
     </div>

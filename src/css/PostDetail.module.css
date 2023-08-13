@@ -1,0 +1,17 @@
+.postDetail{
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2rem;
+    background-color: rgb(244, 207, 255);
+}
+.postTitle{
+    color: rgb(102, 11, 188);
+    font-size: 1.2rem;
+}
+.postAuthor{
+    margin-top: 1rem;
+}
+.postContent{
+    margin-top: 1rem;
+}
